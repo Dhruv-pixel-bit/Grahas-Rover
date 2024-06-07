@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grahas Rover</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        header {
+            background-color: #333;
+            color: #fff;
+            padding: 1rem 0;
+            text-align: center;
+        }
+        header h1 {
+            margin: 0;
+            font-size: 2.5rem;
+        }
+        .container {
+            width: 80%;
+            margin: auto;
+            overflow: hidden;
+        }
+        .video-section, .contact-section, .login-section, .team-section {
+            background: #fff;
+            padding: 20px;
+            margin-top: 20px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        }
+        .video-section h2, .contact-section h2, .login-section h2, .team-section h2 {
+            text-align: center;
+            color: #333;
+        }
+        .video-section video {
+            display: block;
+            margin: 20px auto;
+            max-width: 100%;
+        }
+        .contact-section form, .login-section form {
+            display: flex;
+            flex-direction: column;
+            max-width: 400px;
+            margin: 20px auto;
+        }
+        .contact-section form input, .contact-section form textarea, .login-section form input {
+            margin-bottom: 10px;
+            padding: 10px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+        .contact-section form textarea {
+            height: 100px;
+        }
+        .contact-section form button, .login-section form button {
+            padding: 10px;
+            border: none;
+            border-radius: 5px;
+            background: #333;
+            color: #fff;
+            cursor: pointer;
+        }
+        .team-section .member {
+            display: flex;
+            align-items: center;
+            margin-bottom: 20px;
+        }
+        .team-section .member img {
+            border-radius: 50%;
+            margin-right: 20px;
+        }
+        .team-section .member div {
+            flex: 1;
+        }
+        .team-section .member h3 {
+            margin: 0;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Grahas Rover</h1>
+    </header>
+
+    <div class="container">
+        <!-- Video Section -->
+        <div class="video-section">
+            <h2>Our Videos</h2>
+            <video controls>
+                <source src="video1.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+            </video>
+            <video controls>
+                <source src="video2.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+            </video>
+        </div>
+
+        <!-- Contact Section -->
+        <div class="contact-section">
+            <h2>Contact Us</h2>
+            <form>
+                <input type="text" placeholder="Your Name" required>
+                <input type="email" placeholder="Your Email" required>
+                <textarea placeholder="Your Message" required></textarea>
+                <button type="submit">Send Message</button>
+            </form>
+        </div>
+
+        <!-- Login Section -->
+        <div class="login-section">
+            <h2>Login</h2>
+            <form>
+                <input type="text" placeholder="Username" required>
+                <input type="password" placeholder="Password" required>
+                <button type="submit">Login</button>
+            </form>
+        </div>
+
+        <!-- Team Section -->
+        <div class="team-section">
+            <h2>Our Team</h2>
+            <div class="member">
+                <img src="team_member_1.jpg" alt="Team Member 1" width="100">
+                <div>
+                    <h3>Chaitanya Khetani</h3>
+                    <p>Project Lead - Chaitanya has been leading the project with his expertise in robotics and AI.</p>
+                </div>
+            </div>
+            <div class="member">
+                <img src="team_member_2.jpg" alt="Team Member 2" width="100">
+                <div>
+                    <h3>Dhruv Desai</h3>
+                    <p>Engineer - Dhruv is responsible for the mechanical design and assembly of the rover.</p>
+                </div>
+            </div>
+            <h2>Our Team</h2>
+            <div class="member">
+                <img src="team_member_1.jpg" alt="Team Member 1" width="100">
+                <div>
+                    <h3>Shaun Dmello</h3>
+                    <p>Engineer - Shaun has been leading the project with his expertise in robotics and AI.</p>
+        </div>
+    </div>
+
+</div>
+<h2>Our Team</h2>
+<div class="member">
+    <img src="team_member_1.jpg" alt="Team Member 1" width="100">
+    <div>
+        <h3>Vidhan Bohra</h3>
+        <p>Engineer - Vidhan has been leading the project with his expertise in robotics and AI.</p>
+</div>
+</div>
+
+</body>
+</html>
